@@ -14,7 +14,7 @@ class Main {
 
   public static int[] findNumsSmallerThanCurrent(int[] nums){
     int[] result = new int[nums.length];
-    int[] count = new int[101];
+    int[] count = new int[101]; // based on parameters that input array will be < 100;
     
     // TODO: what?  
     for(int num : nums) {
